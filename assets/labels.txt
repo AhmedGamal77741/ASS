@@ -1,0 +1,18 @@
+0 afraid
+1 Arm
+2 fall
+3 feel
+4 fine
+5 hello
+6 how
+7 I am
+8 in
+9 is
+10 My
+11 name
+12 old
+13 pain
+14 well
+15 what
+16 you
+17 your
