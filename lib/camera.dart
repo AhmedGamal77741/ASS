@@ -33,11 +33,7 @@ class _CameraState extends State<Camera> {
         ResolutionPreset.high,
       );
       controller.initialize().then((_) {
-        if (!mounted) {
-          return;
-        }
-        setState(() {});
-
+      
         controller.startImageStream((CameraImage img) {
           if (!isDetecting) {
             isDetecting = true;

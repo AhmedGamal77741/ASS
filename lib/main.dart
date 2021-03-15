@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:ASS/reply.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'home.dart';
+import 'package:ASS/home.dart';
 
 List<CameraDescription> cameras;
 
@@ -13,7 +13,7 @@ Future<Null> main() async {
   } on CameraException catch (e) {
     print('Error: $e.code\nError Message: $e.message');
   }
-  runApp(new MyApp());
+  runApp(new MyApp());  
 }
 
 class MyApp extends StatelessWidget {

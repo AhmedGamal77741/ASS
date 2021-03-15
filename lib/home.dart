@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'package:tflite/tflite.dart';
-
-
+import 'package:tflite/tflite.dart';  
 import 'camera.dart';
 import 'bndbox.dart';
 
@@ -21,10 +19,7 @@ class _HomePageState extends State<HomePage> {
  
   String _model = "";
 
-  @override
-  void initState() {
-    super.initState();
-  }
+
 
   loadModel() async {
     String res;
